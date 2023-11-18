@@ -1,0 +1,56 @@
+div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+
+
+button.quote {
+    display: flex;
+    background-color: rgb(233, 224, 100);
+    outline: none;
+    border: none;
+    color: black;
+    border: 1px solid black;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 7px;
+    width: 30%;
+}
+
+button.quoteHidden {
+    display: flex;
+    background-color: rgb(233, 224, 100);
+    outline: none;
+    border: none;
+    color: black;
+    border: 1px solid black;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 7px;
+    width: 30%;
+    opacity: 30%;
+}
+
+span {
+    display: inline;
+    margin-left: auto;
+
+}
+
+div div.buttons>button {
+    width: 30%;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    padding: 7px;
+    background-color: rgb(233, 224, 100);
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    transition: all 1s;
+}
+
+div div.buttons>button:hover {
+    background-color: rgba(233, 224, 100, 0.534);
+}
